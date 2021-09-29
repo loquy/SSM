@@ -7,9 +7,9 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- p命名空间注入，可以直接注入属性的值：property -->
-    <bean id="user" class="com.pojo.User" p:name="asd" p:age="123"/>
+    <bean id="user" class="com.pojo.com.pojo.User" p:name="asd" p:age="123"/>
 
     <!-- c命名空间注入，通过构造器注入：construct，scope默认单例模式singleton,原型模式prototype每次get都会产生一个新对象 -->
-    <bean id="user2" class="com.pojo.User" c:name="asd" c:age="123" scope="prototype"/>
+    <bean id="user2" class="com.pojo.com.pojo.User" c:name="asd" c:age="123" scope="prototype"/>
 
 </beans>
