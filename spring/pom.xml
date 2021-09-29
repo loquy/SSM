@@ -12,6 +12,11 @@
         <module>spring-01-ioc1</module>
         <module>spring-02-hellosrping</module>
         <module>spring-03-ioc2</module>
+        <module>spring-04-di</module>
+        <module>spring-05-autowrite</module>
+        <module>spring-06-annotation</module>
+        <module>spring-06-appconfig</module>
+        <module>spring-08-proxy</module>
     </modules>
 
     <properties>

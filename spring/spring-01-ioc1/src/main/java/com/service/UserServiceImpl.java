@@ -1,7 +1,7 @@
 package com.service;
 
-import com.dao.UserDao;
-import com.dao.UserDaoImpl;
+import com.pojo.UserDao;
+import com.pojo.UserDaoImpl;
 
 public class UserServiceImpl implements UserService{
 
