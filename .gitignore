@@ -1,2 +1,8 @@
 # Default ignored files
 /mybatis/mybatis-04/log/
+/springmvc/out/
+/springmvc/springmvc-01-servlet/target/
+/springmvc/sspringmvc-02-hellomvc/target/
+/springmvc/springmvc-03-annotation/target/
+/springmvc/springmvc-04-controller/target/
+/springmvc/springmvc-05-json/target/
