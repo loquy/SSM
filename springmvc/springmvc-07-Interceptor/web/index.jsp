@@ -1,16 +1,13 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: 84124
-  Date: 2021/10/2
-  Time: 11:21
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+</head>
+<body>
+<h1>首页</h1>
+<hr>
+<%--登录--%>
+<a href="${pageContext.request.contextPath}/user/jumpLogin">登录</a>
+<a href="${pageContext.request.contextPath}/user/jumpSuccess">成功页面</a>
+</body>
 </html>
